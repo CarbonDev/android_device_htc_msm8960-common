@@ -98,9 +98,9 @@ PRODUCT_COPY_FILES += \
 # Common build properties
 PRODUCT_PROPERTY_OVERRIDES += \
     com.qc.hardware=true \
-    debug.composition.type=dyn \
+    debug.composition.type=c2d \
     debug.egl.hw=1 \
-    debug.mdpcomp.logs=0 \
+    debug.hwc.dynThreshold=1.9 \
     debug.sf.hw=1 \
     dev.pm.dyn_samplingrate=1 \
     lpa.decode=true \
@@ -109,7 +109,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.handset.mic=digital \
     persist.audio.speaker.location=high \
     persist.hwc.mdpcomp.enable=true \
+    persist.sys.ui.hw=true \
     persist.thermal.monitor=true \
     ro.qc.sdk.audio.fluencetype=fluence \
     ro.use_data_netmgrd=true \
-    wifi.interface=wlan0
+    
+    wifi.interface=wlan0 \
+    wifi.supplicant_scan_interval=200
