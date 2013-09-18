@@ -113,6 +113,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.thermal.monitor=true \
     ro.qc.sdk.audio.fluencetype=fluence \
     ro.use_data_netmgrd=true \
-    
     wifi.interface=wlan0 \
     wifi.supplicant_scan_interval=200
