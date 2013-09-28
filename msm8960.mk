@@ -97,10 +97,12 @@ PRODUCT_COPY_FILES += \
 
 # Common build properties
 PRODUCT_PROPERTY_OVERRIDES += \
+    af.resampler.quality=255 \
     com.qc.hardware=true \
     debug.composition.type=c2d \
     debug.egl.hw=1 \
     debug.hwc.dynThreshold=1.9 \
+    debug.hwui.render_dirty_regions=false \
     debug.sf.hw=1 \
     dev.pm.dyn_samplingrate=1 \
     lpa.decode=true \
