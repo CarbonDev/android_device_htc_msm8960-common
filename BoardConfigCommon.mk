@@ -31,7 +31,6 @@ TARGET_NO_BOOTLOADER := true
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8960
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno320
 
 # Architecture
 TARGET_ARCH := arm
@@ -69,7 +68,6 @@ TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
 TARGET_USES_OVERLAY := true
 TARGET_USES_QCOM_BSP := true
-BOARD_EGL_CFG := device/htc/msm8960-common/configs/egl.cfg
 BOARD_USE_SKIA_LCDTEXT := true
 BOARD_USES_SKIAHWJPEG := true
 BOARD_USES_SKTEXTBOX := true
